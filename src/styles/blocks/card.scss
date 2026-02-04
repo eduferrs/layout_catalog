@@ -23,7 +23,7 @@
     width: 166px;
     height: 40px;
     border-radius: 5px;
-    background-color: $card-button-color;
+    background-color: $pacifc-blue-color;
     color: $text-button-color;
     transition: all 300ms ease;
 
@@ -36,8 +36,8 @@
   &:hover {
     .card__button {
       background-color: #fff;
-      border: 1px solid #00acdc;
-      color: #00acdc;
+      border: 1px solid $pacifc-blue-color;
+      color: $pacifc-blue-color;
     }
 
     &__title {
@@ -45,7 +45,7 @@
     }
 
     .stars__reviews {
-      color: #060b35;
+      color: $midnight-blue-color;
     }
   }
 
@@ -63,7 +63,7 @@
     line-height: 18px;
     margin-bottom: 4px;
     margin-top: 0;
-    color: #060b35;
+    color: $midnight-blue-color;
   }
 
   &__code {
@@ -92,7 +92,7 @@
       line-height: 18px;
       text-align: right;
       vertical-align: bottom;
-      color: #060b35;
+      color: $midnight-blue-color;
     }
   }
 }
