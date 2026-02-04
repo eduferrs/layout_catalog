@@ -6,8 +6,7 @@
   padding: 50px 40px;
   grid-template-columns: repeat(var(--column-count), $grid-temp-col);
   justify-content: center;
-  row-gap: 46px;
-  column-gap: 48px;
+  gap: $gap;
 }
 
 @media (min-width: $min-width-sm) {
